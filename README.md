@@ -1,5 +1,22 @@
 # ProyectoBiblioteca
 
+## Nota
+ Mi Repositorio: https://github.com/Fmejias03/ProyectoBiblioteca.git
+ 
+ ## Ejercicio
+ ## Contexto del problema
+En una biblioteca pública grande, existen miles de libros y cientos de lectores que buscan pedir prestados, devolver y renovar estos libros. Además, los bibliotecarios deben ser capaces de agregar nuevos libros al sistema, eliminar libros obsoletos o dañados, y realizar un seguimiento de los préstamos de libros. Para manejar estas tareas de forma eficiente y segura, necesitamos desarrollar un Sistema de Gestión de Bibliotecas (LMS por sus siglas en inglés) que use Hibernate y JPA para interactuar con una base de datos SQL y que pueda manejar solicitudes concurrentes de manera segura.
+
+## Requisitos técnicos
+
+1. **Diseño e implementación de un modelo de datos para la biblioteca**: Esto debe incluir clases para libros, lectores, préstamos, y cualquier otra entidad que considere necesaria.
+2. **Uso de Hibernate y JPA**: Para mapear sus clases de dominio a las tablas de la base de datos.
+3. **Proporcionar una API**: Que permita a los clientes (bibliotecarios y lectores) realizar las operaciones básicas de la biblioteca, como buscar libros, pedir prestados libros, devolver libros, renovar préstamos, agregar nuevos libros y eliminar libros obsoletos. Puedes consultar aquí para más detalles.
+4. **Implementación del control de concurrencia**: Para evitar condiciones de carrera, por ejemplo, dos lectores que intentan pedir prestado el mismo libro al mismo tiempo.
+5. **Implementación de auditoría y control de versiones**: Para realizar un seguimiento de quién hace qué y cuándo en el sistema.
+6. **Uso de una caché**: Para mejorar el rendimiento de las operaciones comunes, como buscar libros.
+7. **Pruebas unitarias e integración**: Para verificar el correcto funcionamiento de su aplicación.
+
 This app was created with Bootify.io - tips on working with the code [can be found here](https://bootify.io/next-steps/).
 Feel free to contact us for further questions.
 
